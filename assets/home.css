@@ -1,0 +1,125 @@
+body{
+    background-color: tan;
+}
+h1{
+    text-align: center;
+    color: rgb(116, 102, 85);
+    background-color: bisque;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    font-size: 60px;
+    font-family: 'Cutive', serif;
+}
+
+.Tbuttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-color: transparent;
+    padding:20px;
+    width: initial;
+  }
+ .Bbuttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-color: transparent;
+    margin-top: 80px;
+    width: initial;
+    padding: initial;
+  } 
+.digital{
+    background-color: pink;
+    rotate: 15deg;
+}
+.digital a{
+    color: red;
+}
+.digital:hover{
+    rotate: 0deg;
+}
+.studio{
+    background-color: rgb(255, 205, 185);
+    rotate: -15deg;
+}
+.studio a{
+    color:rgb(255, 102, 0);
+}
+.studio:hover{
+    rotate: 0deg;
+}
+.design{
+    background-color: rgb(255, 255, 164);
+    rotate: 15deg;
+}
+.design a{
+    color: goldenrod;
+}
+.design:hover{
+    rotate: 0deg;
+}
+.misc{
+    background-color: rgb(192, 255, 192);
+    rotate: -15deg;
+}
+.misc:hover{
+    rotate: 0deg;
+}
+.misc a{
+    color: green;
+}
+.resume{
+    background-color: lightblue;
+    rotate: 15deg;
+}
+.resume a{
+    color: blue;
+}
+.resume:hover{
+    rotate: 0deg;
+}
+.about{
+    background-color: lavender;
+    rotate: -15deg;
+}
+.about a{
+    color: purple;
+}
+.about:hover{
+    rotate: 0deg;
+}
+div{
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+    padding:20px;
+    margin: 20px;
+    margin-bottom: 5px;
+    width: 80px;
+    height: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+a{
+    font-family: 'Cutive', cursive;
+    font-size: 18px;
+    text-decoration:none;
+    font-weight: bold;
+}
+.spine{
+    position: absolute;
+    height:100vh;
+    width: 40px;
+    background-color:rgb(116, 102, 85);
+    border-radius: 0%;
+    border-width: 0px;
+    border-color: transparent;
+    margin: 0%;
+    padding: 0%;
+}
